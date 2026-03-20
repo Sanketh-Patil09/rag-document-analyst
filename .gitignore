@@ -1,0 +1,63 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+Env/
+ENV/
+
+# ── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── ChromaDB (vector store - can be regenerated from PDFs) ───────────────────
+chroma_db/
+
+# ── Temporary processing files ────────────────────────────────────────────────
+temp_uploads/
+temp_images/
+
+# ── Bundled Python interpreter (not needed in repo) ───────────────────────────
+python310.exe
+
+# ── PDFs / sample data ────────────────────────────────────────────────────────
+# Comment out the next line if you want to include sample PDFs
+*.pdf
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Environment variables ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Model caches (sentence-transformers, torch) ───────────────────────────────
+.cache/
